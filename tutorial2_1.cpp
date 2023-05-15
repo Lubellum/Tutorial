@@ -1,0 +1,6 @@
+#include "tutorial.h"
+
+void tutorial2_1()
+{
+	printf("%dçŒ\n", 25);
+}
