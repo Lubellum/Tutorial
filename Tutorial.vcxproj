@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="sample.cpp" />
     <ClCompile Include="tutorial1_1.cpp" />
     <ClCompile Include="tutorial1_2.cpp" />
     <ClCompile Include="tutorial1_3.cpp" />

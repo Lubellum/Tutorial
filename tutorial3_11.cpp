@@ -2,15 +2,15 @@
 
 void tutorial3_11()
 {
-	int x, y;
+	float x, y;
 
 	printf_s("1つ目の数値を入力してください\n");
-	scanf_s("%d", &x);
+	scanf_s("%f", &x);
 
 	printf_s("2つ目の数値を入力してください\n");
-	scanf_s("%d", &y);
+	scanf_s("%f", &y);
 
-	int	average = (x + y) / 2;
+	float average = (x + y) / 2.0f;
 
 	std::cout << "平均値：" << average << "\n";
 }

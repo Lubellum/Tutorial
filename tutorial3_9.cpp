@@ -2,10 +2,10 @@
 
 void tutorial3_9()
 {
-	double x = 0;
+	int x = 0;
 
 	printf_s("”’l‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢\n");
-	scanf_s("%lf", &x);
+	scanf_s("%d", &x);
 
 	double answer1 = pow(x, 1);
 	double answer2 = pow(x, 2);
