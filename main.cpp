@@ -1,11 +1,11 @@
 #include "tutorial.h"
 
-void tutorial3_12();
+void tutorial4_1();
 //void sample();
 
 int main()
 {
-	tutorial3_12();
+	tutorial4_1();
 	//sample();
 
 }
