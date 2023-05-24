@@ -18,18 +18,20 @@ void tutorial3_7()
 	scanf_s("%d", &y);
 
 
-	if (x >= y)
+	if (x > y)
 	{
 		//division(x, y);
 		std::cout << "商： " << x / y << "\n";
 		std::cout << "余： " << x % y << "\n";
 	}
-	else if(x < y)
+	else if(x <= y)
 	{
 		std::cout << "②の数値は①より小さい数を選択してください\n";
+		tutorial3_7();
 	}
 	else
 	{
 		std::cout << "数値を入力してください\n";
+		tutorial3_7();
 	}
 }

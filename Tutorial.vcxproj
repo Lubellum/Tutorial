@@ -154,6 +154,7 @@
     <ClCompile Include="tutorial4_3.cpp" />
     <ClCompile Include="tutorial4_5.cpp" />
     <ClCompile Include="tutorial4_6.cpp" />
+    <ClCompile Include="tutorial4_7.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tutorial.h" />
