@@ -34,4 +34,6 @@ void tutorial3_7()
 		std::cout << "”’l‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢\n";
 		tutorial3_7();
 	}
+
+	std::cout << "ŠÖ”I‚í‚è\n";
 }

@@ -21,19 +21,19 @@ void tutorial4_10()
 	int yPositive = (y >= 0);
 	int yNegarive = (y < 0);
 
-	if (x < y && xEven && yEven)
+	if ((x < y) && xEven && yEven)
 	{
 		std::cout << "xはyより小さく、かつ、xとyは共に偶数である。\n";
 	}
-	else if (x == y && xNegarive)
+	else if ((x == y) && xNegarive)
 	{
 		std::cout << "xとyは等しく、かつ、負の数である。\n";
 	}
-	else if (x < y || xEven)
+	else if ((x < y) || xEven)
 	{
 		std::cout << "xはyより小さい、または、xは偶数である。\n";
 	}
-	else if ((x <= 10 || x >= 100) && (y >= 10 && y <= 100)) // (10 <= y <= 100)
+	else if ((x <= 10 || x >= 100) && (y >= 10 && y <= 100))
 	{
 		std::cout << "xは10以下または100以上で、かつ、yは10以上かつ100以下である。\n";
 	}

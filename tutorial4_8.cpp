@@ -2,26 +2,26 @@
 
 void tutorial4_8()
 {
-	int MiddleTestScore = 0;
-	int EndTestScore = 0;
+	int middleTestScore = 0;
+	int endTestScore = 0;
 
 	std::cout << "中間テストの点数を入力してください\n";
-	scanf_s("%d", &MiddleTestScore);
+	scanf_s("%d", &middleTestScore);
 
 	std::cout << "期末テストの点数を入力してください\n";
-	scanf_s("%d", &EndTestScore);
+	scanf_s("%d", &endTestScore);
 
-	int TotalScore = MiddleTestScore + EndTestScore;
+	int totalScore = middleTestScore + endTestScore;
 
-	if ((MiddleTestScore >= 60) && (EndTestScore >= 60))
+	if ((middleTestScore >= 60) && (endTestScore >= 60))
 	{
 		std::cout << "合格です\n";
 	}
-	else if (TotalScore >= 130)
+	else if (totalScore >= 130)
 	{
 		std::cout << "合格です\n";
 	}
-	else if ((TotalScore >= 100) && (MiddleTestScore >= 90 || EndTestScore >= 90))
+	else if ((totalScore >= 100) && (middleTestScore >= 90 || endTestScore >= 90))
 	{
 		std::cout << "合格です\n";
 	}
