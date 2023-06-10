@@ -5,7 +5,10 @@ void tutorial5_5()
 	int num[10];
 	int sum = 0;
 
-	for (int i = 0; i < 10; i++)
+	// sizeof(num) →　配列全体のメモリの大きさ
+	int size = sizeof(num) / sizeof(num[0]);
+
+	for (int i = 0; i < size; i++)
 	{
 		std::cout << i + 1 << "こ目\n";
 		std::cin >> num[i];
@@ -13,6 +16,6 @@ void tutorial5_5()
 		sum += num[i];
 	}
 
-	int avarage = sum / 10;
+	int avarage = sum / size;
 	std::cout << "平均値は" << avarage << "です\n";
 }

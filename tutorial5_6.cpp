@@ -17,12 +17,15 @@ void tutorial5_6()
 
 		if (BattleScore == 0)
 		{
-			lose++;
+			++lose;
 		}
-
-		if (BattleScore == 1)
+		else if (BattleScore == 1)
 		{
-			win++;
+			++win;
+		}
+		else 
+		{
+			// donothing
 		}
 	}
 
