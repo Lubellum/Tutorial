@@ -13,133 +13,229 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ソース ファイル\1章">
+      <UniqueIdentifier>{40b799b1-1b13-4a64-863d-e858970bd2df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2章">
+      <UniqueIdentifier>{73fbc594-63cf-4fe6-9a88-c5da5389334a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\3章">
+      <UniqueIdentifier>{582b35d8-cf8b-4846-9cdc-548c1448414e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\4章">
+      <UniqueIdentifier>{18011f9c-8883-4eba-8490-d70239ee412b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\5章">
+      <UniqueIdentifier>{5833a557-eb90-4595-ad3c-0fd0ebca7b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\6章">
+      <UniqueIdentifier>{4609c668-d7fd-4465-ae94-e951b5b33a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\7章">
+      <UniqueIdentifier>{4f7388f3-fbd8-4368-ae04-74684e8aec23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\8章">
+      <UniqueIdentifier>{51d4fed9-4f57-4f50-bdc9-086ad951d560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\9章">
+      <UniqueIdentifier>{4bb50ff2-e110-4cc5-9944-254ac92d79fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\10章">
+      <UniqueIdentifier>{af310807-31c7-4fd0-b693-1a4158fa7f94}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="tutorial1_1.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="tutorial1_2.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="tutorial1_3.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="tutorial2_1.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="tutorial2_2.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="tutorial2_3.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="tutorial2_4.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="tutorial2_5.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="tutorial2_6.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="tutorial3_1.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="tutorial3_2.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="tutorial3_3.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="tutorial3_4.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="tutorial3_5.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="tutorial3_6.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="tutorial3_7.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="tutorial3_8.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="tutorial3_9.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="tutorial3_10.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="tutorial3_11.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="tutorial3_12.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
     <ClCompile Include="sample.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="tutorial1_1.cpp">
+      <Filter>ソース ファイル\1章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial1_2.cpp">
+      <Filter>ソース ファイル\1章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial1_3.cpp">
+      <Filter>ソース ファイル\1章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial2_1.cpp">
+      <Filter>ソース ファイル\2章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial2_2.cpp">
+      <Filter>ソース ファイル\2章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial2_3.cpp">
+      <Filter>ソース ファイル\2章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial2_4.cpp">
+      <Filter>ソース ファイル\2章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial2_5.cpp">
+      <Filter>ソース ファイル\2章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial2_6.cpp">
+      <Filter>ソース ファイル\2章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial3_1.cpp">
+      <Filter>ソース ファイル\3章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial3_2.cpp">
+      <Filter>ソース ファイル\3章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial3_3.cpp">
+      <Filter>ソース ファイル\3章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial3_4.cpp">
+      <Filter>ソース ファイル\3章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial3_5.cpp">
+      <Filter>ソース ファイル\3章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial3_6.cpp">
+      <Filter>ソース ファイル\3章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial3_7.cpp">
+      <Filter>ソース ファイル\3章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial3_8.cpp">
+      <Filter>ソース ファイル\3章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial3_9.cpp">
+      <Filter>ソース ファイル\3章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial3_10.cpp">
+      <Filter>ソース ファイル\3章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial3_11.cpp">
+      <Filter>ソース ファイル\3章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial3_12.cpp">
+      <Filter>ソース ファイル\3章</Filter>
+    </ClCompile>
     <ClCompile Include="tutorial4_1.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\4章</Filter>
     </ClCompile>
     <ClCompile Include="tutorial4_3.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\4章</Filter>
     </ClCompile>
     <ClCompile Include="tutorial4_5.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\4章</Filter>
     </ClCompile>
     <ClCompile Include="tutorial4_6.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\4章</Filter>
     </ClCompile>
     <ClCompile Include="tutorial4_7.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\4章</Filter>
     </ClCompile>
     <ClCompile Include="tutorial4_8.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\4章</Filter>
     </ClCompile>
     <ClCompile Include="tutorial4_9.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\4章</Filter>
     </ClCompile>
     <ClCompile Include="tutorial4_10.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\4章</Filter>
     </ClCompile>
     <ClCompile Include="tutorial4_11.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\4章</Filter>
     </ClCompile>
     <ClCompile Include="tutorial4_12.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\4章</Filter>
     </ClCompile>
     <ClCompile Include="tutorial4_13.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\4章</Filter>
     </ClCompile>
     <ClCompile Include="tutorial5_1.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\5章</Filter>
     </ClCompile>
     <ClCompile Include="tutorial5_2.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\5章</Filter>
     </ClCompile>
     <ClCompile Include="tutorial5_3.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\5章</Filter>
     </ClCompile>
     <ClCompile Include="tutorial5_4.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\5章</Filter>
     </ClCompile>
     <ClCompile Include="tutorial5_5.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\5章</Filter>
     </ClCompile>
     <ClCompile Include="tutorial5_6.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\5章</Filter>
     </ClCompile>
     <ClCompile Include="tutorial5_7_1.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\5章</Filter>
     </ClCompile>
     <ClCompile Include="tutorial5_7_2.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\5章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial5_8_1.cpp">
+      <Filter>ソース ファイル\5章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial5_8_2.cpp">
+      <Filter>ソース ファイル\5章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial5_9_1.cpp">
+      <Filter>ソース ファイル\5章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial5_9_2.cpp">
+      <Filter>ソース ファイル\5章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial5_10.cpp">
+      <Filter>ソース ファイル\5章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial5_11.cpp">
+      <Filter>ソース ファイル\5章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial5_12.cpp">
+      <Filter>ソース ファイル\5章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial5_13.cpp">
+      <Filter>ソース ファイル\5章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial5_16.cpp">
+      <Filter>ソース ファイル\5章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial5_14.cpp">
+      <Filter>ソース ファイル\5章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial5_15.cpp">
+      <Filter>ソース ファイル\5章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial5_17.cpp">
+      <Filter>ソース ファイル\5章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial5_18.cpp">
+      <Filter>ソース ファイル\5章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial5_19.cpp">
+      <Filter>ソース ファイル\5章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial5_20.cpp">
+      <Filter>ソース ファイル\5章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial5_21.cpp">
+      <Filter>ソース ファイル\5章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial5_22.cpp">
+      <Filter>ソース ファイル\5章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial5_23.cpp">
+      <Filter>ソース ファイル\5章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial6_1.cpp">
+      <Filter>ソース ファイル\6章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial6_2.cpp">
+      <Filter>ソース ファイル\6章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial6_3.cpp">
+      <Filter>ソース ファイル\6章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial6_4.cpp">
+      <Filter>ソース ファイル\6章</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -147,7 +243,7 @@
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
     <ClInclude Include="tutorial4_7.h">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\4章</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

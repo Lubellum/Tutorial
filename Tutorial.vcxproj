@@ -162,13 +162,35 @@
     <ClCompile Include="tutorial4_8.cpp" />
     <ClCompile Include="tutorial4_9.cpp" />
     <ClCompile Include="tutorial5_1.cpp" />
+    <ClCompile Include="tutorial5_10.cpp" />
+    <ClCompile Include="tutorial5_11.cpp" />
+    <ClCompile Include="tutorial5_12.cpp" />
+    <ClCompile Include="tutorial5_13.cpp" />
+    <ClCompile Include="tutorial5_14.cpp" />
+    <ClCompile Include="tutorial5_15.cpp" />
+    <ClCompile Include="tutorial5_16.cpp" />
+    <ClCompile Include="tutorial5_17.cpp" />
+    <ClCompile Include="tutorial5_18.cpp" />
+    <ClCompile Include="tutorial5_19.cpp" />
     <ClCompile Include="tutorial5_2.cpp" />
+    <ClCompile Include="tutorial5_20.cpp" />
+    <ClCompile Include="tutorial5_21.cpp" />
+    <ClCompile Include="tutorial5_22.cpp" />
+    <ClCompile Include="tutorial5_23.cpp" />
     <ClCompile Include="tutorial5_3.cpp" />
     <ClCompile Include="tutorial5_4.cpp" />
     <ClCompile Include="tutorial5_5.cpp" />
     <ClCompile Include="tutorial5_6.cpp" />
     <ClCompile Include="tutorial5_7_1.cpp" />
     <ClCompile Include="tutorial5_7_2.cpp" />
+    <ClCompile Include="tutorial5_8_1.cpp" />
+    <ClCompile Include="tutorial5_8_2.cpp" />
+    <ClCompile Include="tutorial5_9_1.cpp" />
+    <ClCompile Include="tutorial5_9_2.cpp" />
+    <ClCompile Include="tutorial6_1.cpp" />
+    <ClCompile Include="tutorial6_2.cpp" />
+    <ClCompile Include="tutorial6_3.cpp" />
+    <ClCompile Include="tutorial6_4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tutorial.h" />
