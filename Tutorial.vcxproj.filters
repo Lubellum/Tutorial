@@ -231,10 +231,28 @@
     <ClCompile Include="tutorial6_2.cpp">
       <Filter>ソース ファイル\6章</Filter>
     </ClCompile>
-    <ClCompile Include="tutorial6_3.cpp">
+    <ClCompile Include="tutorial6_3_1.cpp">
       <Filter>ソース ファイル\6章</Filter>
     </ClCompile>
-    <ClCompile Include="tutorial6_4.cpp">
+    <ClCompile Include="tutorial6_4_1.cpp">
+      <Filter>ソース ファイル\6章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial6_3_2.cpp">
+      <Filter>ソース ファイル\6章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial6_5.cpp">
+      <Filter>ソース ファイル\6章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial6_6.cpp">
+      <Filter>ソース ファイル\6章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial6_4_2.cpp">
+      <Filter>ソース ファイル\6章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial6_7.cpp">
+      <Filter>ソース ファイル\6章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial6_8.cpp">
       <Filter>ソース ファイル\6章</Filter>
     </ClCompile>
   </ItemGroup>
@@ -243,7 +261,10 @@
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
     <ClInclude Include="tutorial4_7.h">
-      <Filter>ソース ファイル\4章</Filter>
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial6_7.h">
+      <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
