@@ -17,13 +17,19 @@ void tutorial6_8()
 	{
 		for (j = i + 1; j < limit; j++)
 		{
+			for (int l = 0; l < limit; l++)
+			{
+				std::cout << numbers[l] << " ";
+			}
+			printf_s("(i = %d, j = %d)" ,i ,j);
+			std::cout << "\n";
+
 			if (numbers[i] > numbers[j])
 			{
 				int k = numbers[j];
 				numbers[j] = numbers[i];
 				numbers[i] = k;
 			}
-
 		}
 	}
 

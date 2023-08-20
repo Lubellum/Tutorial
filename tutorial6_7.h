@@ -4,13 +4,11 @@ class tutorial6_7
 {
 public:
 	
-	int createMultiplicationTables();
-	int caliculateMultiplicationTable();
+	void buildMultiplicationTables();
+	//int caliculateMultiplicationTable();
+	int caliculateMultiplicationTable(int x, int y);
 
 
 private:
-
-	int kuku[9][9];
-	int x;
-	int y;
+	int mKuku[9][9];
 };
