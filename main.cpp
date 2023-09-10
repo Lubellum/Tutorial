@@ -1,9 +1,9 @@
 #include "tutorial.h"
 #include "tutorial4_7.h"
 
-void tutorial6_8();
+void tutorial7_12();
 
 int main()
 {
-	tutorial6_8();
+	tutorial7_12();
 }
