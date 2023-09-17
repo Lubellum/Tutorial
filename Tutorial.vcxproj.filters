@@ -297,6 +297,15 @@
     <ClCompile Include="tutorial07_12.cpp">
       <Filter>ソース ファイル\7章</Filter>
     </ClCompile>
+    <ClCompile Include="tutorial08_01.cpp">
+      <Filter>ソース ファイル\8章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial08_02.cpp">
+      <Filter>ソース ファイル\8章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial08_03.cpp">
+      <Filter>ソース ファイル\8章</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tutorial.h">
