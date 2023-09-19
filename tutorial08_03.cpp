@@ -7,11 +7,18 @@ void tutorial08_03()
 	int* p;
 	
 	p = &number[count];
+	
+	//int x;
+	//int y;
+	//int z;
+
+	//char alphabet[3] = {'x', 'y' ,'z'};
 
 	for (int i = 0; i < count; i++)
 	{
 		std::cout << "”š‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢(" << i + 1 << "”Ô–Ú)\n";
-		std::cin >> number[i];
+		std::cin >> *(p + i);
+		//std::cin >> number[i];
 	}
 
 	for (int i = 0; i < count; i++)

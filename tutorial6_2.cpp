@@ -14,7 +14,7 @@ void tutorial6_2()
 
 	for (int i = 0; i < numbers.size(); i++)
 	{
-		int index = numbers.size() - i;
+		size_t index = numbers.size() - i;
 		std::cout << std::setw(2) << index << "‰ñ–ÚF" << numbers[index - 1] << "\n";
 	}
 }

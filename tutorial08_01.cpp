@@ -5,10 +5,10 @@
 
 void tutorial08_01()
 {
-	int  x;
-	int* p;
+	int  x = 0;
+	int* p = &x;
 
-	p = &x;
+	//p = &x;
 	*p = 12;
 
 	// x‚Ì’l‚ð12‚É‚·‚é

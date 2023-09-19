@@ -6,7 +6,7 @@ void tutorial5_12()
 
 	for (int i = 0; i < MagicNumber; i++)
 	{
-		int ThreePower = std::pow(3, i + 1);
+		double ThreePower = std::pow(3, i + 1);
 
 		if (ThreePower <= 10000)
 		{
