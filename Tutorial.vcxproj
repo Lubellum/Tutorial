@@ -131,6 +131,8 @@
     <ClCompile Include="sample.cpp" />
     <ClCompile Include="tutorial08_02.cpp" />
     <ClCompile Include="tutorial08_03.cpp" />
+    <ClCompile Include="tutorial09_01.cpp" />
+    <ClCompile Include="tutorial09_02.cpp" />
     <ClCompile Include="tutorial1_1.cpp" />
     <ClCompile Include="tutorial1_2.cpp" />
     <ClCompile Include="tutorial1_3.cpp" />
