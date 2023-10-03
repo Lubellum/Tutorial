@@ -5,7 +5,7 @@ double NumberToPower(int aNumber)
 	return std::pow(aNumber, 2);
 }
 
-void tutorial09_01()
+void Tutorial09_01()
 {
 	double number = 0;
 

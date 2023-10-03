@@ -6,7 +6,7 @@ int CalculateAverage(int aNum1, int aNum2)
 	return average;
 }
 
-void tutorial09_02()
+void Tutorial09_02()
 {
 	int num1 = 0;
 	int num2 = 0;

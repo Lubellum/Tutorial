@@ -25,9 +25,6 @@
     <Filter Include="ソース ファイル\4章">
       <UniqueIdentifier>{18011f9c-8883-4eba-8490-d70239ee412b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\5章">
-      <UniqueIdentifier>{5833a557-eb90-4595-ad3c-0fd0ebca7b8a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="ソース ファイル\6章">
       <UniqueIdentifier>{4609c668-d7fd-4465-ae94-e951b5b33a17}</UniqueIdentifier>
     </Filter>
@@ -42,6 +39,9 @@
     </Filter>
     <Filter Include="ソース ファイル\10章">
       <UniqueIdentifier>{af310807-31c7-4fd0-b693-1a4158fa7f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\5章">
+      <UniqueIdentifier>{5833a557-eb90-4595-ad3c-0fd0ebca7b8a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -310,6 +310,15 @@
       <Filter>ソース ファイル\9章</Filter>
     </ClCompile>
     <ClCompile Include="tutorial09_02.cpp">
+      <Filter>ソース ファイル\9章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial09_03_1.cpp">
+      <Filter>ソース ファイル\9章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial09_03_2.cpp">
+      <Filter>ソース ファイル\9章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial09_04.cpp">
       <Filter>ソース ファイル\9章</Filter>
     </ClCompile>
   </ItemGroup>
