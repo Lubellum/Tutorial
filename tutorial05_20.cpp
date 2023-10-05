@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial5_20()
+void Tutorial05_20()
 {
 	int num = 0;
 	int sum = 0;

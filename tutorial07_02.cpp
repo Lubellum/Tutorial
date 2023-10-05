@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial7_2()
+void Tutorial07_02()
 {
 	//char a[] = 'A';
 	char a = 'A';

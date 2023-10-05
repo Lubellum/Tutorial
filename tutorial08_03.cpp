@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial08_03()
+void Tutorial08_03()
 {
 	const int count = 10;
 	int number[count] = {};

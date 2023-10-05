@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial7_10_2()
+void Tutorial07_10_2()
 {
     char    str[100];
     int     i, j;

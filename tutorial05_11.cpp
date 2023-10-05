@@ -1,13 +1,13 @@
 #include "tutorial.h"
 
-void tutorial5_11()
+void Tutorial05_11()
 {
-	int CountNum = 0;
+	int countNum = 0;
 
 	std::cout << "•\Ž¦‚·‚é”Žš‚ÌŒÂ”‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢\n";
-	scanf_s("%d", &CountNum);
+	scanf_s("%d", &countNum);
 
-	for (int i = 0; i < CountNum; i++)
+	for (int i = 0; i < countNum; i++)
 	{
 		std::cout << i % 10;
 	}

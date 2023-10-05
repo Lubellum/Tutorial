@@ -1,28 +1,28 @@
 #include "tutorial.h"
 
-void basyo1()
+void Basyo1()
 {
 	printf("‚Ó‚é‚¢‚¯‚â\n");
 }
 
-void basyo2()
+void Basyo2()
 {
 	printf("‚©‚í‚¸‚Æ‚Ñ‚±‚Þ\n");
 }
 
-void basyo3()
+void Basyo3()
 {
 	printf("‚Ý‚¸‚Ì‚¨‚Æ\n");
 }
 
-void basyo()
+void Basyo()
 {
-	basyo1();
-	basyo2();
-	basyo3();
+	Basyo1();
+	Basyo2();
+	Basyo3();
 }
 
-void tutorial1_3()
+void Tutorial01_03()
 {
-	basyo();
+	Basyo();
 }

@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial5_17()
+void Tutorial05_17()
 {
 	int number = 0;
 	bool factorFlag = 0;

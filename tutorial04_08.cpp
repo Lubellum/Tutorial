@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial4_8()
+void Tutorial04_08()
 {
 	int middleTestScore = 0;
 	int endTestScore = 0;

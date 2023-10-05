@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial4_11()
+void Tutorial04_11()
 {
 	int month = 0;
 

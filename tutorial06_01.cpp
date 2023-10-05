@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial6_1()
+void Tutorial06_01()
 {
 	int numbers[10];
 	

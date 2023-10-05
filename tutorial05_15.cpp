@@ -1,28 +1,28 @@
 #include "tutorial.h"
 
-int countAtStrike(const int strike)
+int CountAtStrike(const int aStrike)
 {
-	return strike + 1;
+	return aStrike + 1;
 }
 
-int countAtBall(const int ball)
+int CountAtBall(const int aBall)
 {
-	return ball + 1;
+	return aBall + 1;
 }
 
-int countAtFoul(const int strike)
+int CountAtFoul(const int aStrike)
 {
-	if (strike >= 2)
+	if (aStrike >= 2)
 	{
 		return 2;
 	}
 	else
 	{
-		return (strike + 1);
+		return (aStrike + 1);
 	}
 }
 
-void tutorial5_15()
+void Tutorial05_15()
 {
 	int judge = 0;
 
@@ -36,15 +36,15 @@ void tutorial5_15()
 
 		if (judge == 1)
 		{
-			strike = countAtStrike(strike);
+			strike = CountAtStrike(strike);
 		}
 		else if (judge == 2)
 		{
-			ball = countAtBall(ball);
+			ball = CountAtBall(ball);
 		}
 		else if (judge == 3)
 		{
-			strike = countAtFoul(strike);
+			strike = CountAtFoul(strike);
 		}
 		else
 		{

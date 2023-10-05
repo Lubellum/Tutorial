@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial5_16()
+void Tutorial05_16()
 {
 	int number = 0;
 	int factorCount = 0;

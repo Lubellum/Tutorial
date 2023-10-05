@@ -6,7 +6,7 @@
 //	std::cout << "余： " << x % y << "\n";
 //}
 
-void tutorial3_7()
+void Tutorial03_07()
 {
 	int x = 0;
 	int y = 0;
@@ -27,12 +27,12 @@ void tutorial3_7()
 	else if(x <= y)
 	{
 		std::cout << "②の数値は①より小さい数を選択してください\n";
-		tutorial3_7();
+		Tutorial03_07();
 	}
 	else
 	{
 		std::cout << "数値を入力してください\n";
-		tutorial3_7();
+		Tutorial03_07();
 	}
 
 	std::cout << "関数終わり\n";

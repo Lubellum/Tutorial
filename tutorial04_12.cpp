@@ -34,7 +34,7 @@ void TypeOManual()
 	std::cout << "‰Äê‚Í‹C‚ð•t‚¯‚Ü‚µ‚å‚¤B\n";
 }
 
-void tutorial4_12()
+void Tutorial04_12()
 {
 	int num = 0;
 

@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-class tutorial4_7
+class tutorial04_07
 {
 public:
 

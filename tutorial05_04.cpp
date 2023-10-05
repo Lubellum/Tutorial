@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial5_4()
+void Ttutorial05_04()
 {
 	int x = 7;
 	long product = 1;

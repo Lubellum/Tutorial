@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial7_10_1()
+void Tutorial07_10_1()
 {
     // todo: 2つめの配列に大文字だけを入れて、最後に2つ目の配列を表示する
     char    str[100];

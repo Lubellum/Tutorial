@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial3_1()
+void Tutorial03_01()
 {
 	int x = 13 + 17;
 

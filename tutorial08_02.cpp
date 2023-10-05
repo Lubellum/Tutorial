@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial08_02()
+void Tutorial08_02()
 {
 	char str[] = "hello world";
 	char* p;

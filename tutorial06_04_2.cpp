@@ -35,7 +35,7 @@ bool IsFinish(const int i, const int limit, int * numbers)
 	}
 }
 
-void tutorial6_4_2()
+void Tutorial06_04_2()
 {
 	const int limit = 10;
 	int numbers[limit] = {};

@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial7_3_2()
+void Tutorial07_03_2()
 {
 	char alphabet = 'a';
 

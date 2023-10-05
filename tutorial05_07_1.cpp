@@ -1,32 +1,32 @@
 #include "tutorial.h"
 
-void tutorial5_7_1()
+void Tutorial05_07_1()
 {
-	int GiantsTotalScore = 0;
-	int TigersTotalScore = 0;
+	int giantsTotalScore = 0;
+	int tigersTotalScore = 0;
 
 	for (int i = 0; i < 9; i++)
 	{
-		int GiantsScore = 0;
-		int TigersScore = 0;
+		int giantsScore = 0;
+		int tigersScore = 0;
 
 		std::cout << i + 1 << "回表　巨人の得点は？\n";
-		scanf_s("%d", &GiantsScore);
-		GiantsTotalScore += GiantsScore;
+		scanf_s("%d", &giantsScore);
+		giantsTotalScore += giantsScore;
 
 		std::cout << i + 1 << "回裏　阪神の得点は？\n";
-		scanf_s("%d", &TigersScore);
-		TigersTotalScore += TigersScore;
+		scanf_s("%d", &tigersScore);
+		tigersTotalScore += tigersScore;
 	}
 
 	std::cout << "試合終了\n";
-	std::cout << "巨人：" << GiantsTotalScore << "点\n";
-	std::cout << "阪神：" << TigersTotalScore << "点\n";
-	if (GiantsTotalScore > TigersTotalScore)
+	std::cout << "巨人：" << giantsTotalScore << "点\n";
+	std::cout << "阪神：" << tigersTotalScore << "点\n";
+	if (giantsTotalScore > tigersTotalScore)
 	{
 		std::cout << "巨人の勝ち\n";
 	}
-	else if (GiantsTotalScore < TigersTotalScore)
+	else if (giantsTotalScore < tigersTotalScore)
 	{
 		std::cout << "阪神の勝ち\n";
 	}

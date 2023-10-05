@@ -2,7 +2,7 @@
 	
 // 次のコードに追加し、str の文字列を逆順にして表示するプログラムを完成させなさい。
 
-void tutorial07_12()
+void Tutorial07_12()
 {
 
 	char str1[] = "Hello World";

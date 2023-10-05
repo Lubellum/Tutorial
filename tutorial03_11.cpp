@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial3_11()
+void Ttutorial03_11()
 {
 	float x, y;
 

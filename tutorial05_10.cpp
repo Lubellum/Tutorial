@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial5_10()
+void Tutorial05_10()
 {
 	int viewCount = 0;
 

@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial5_22()
+void Tutorial05_22()
 {
 	int num = 0;
 	std::cin >> num;

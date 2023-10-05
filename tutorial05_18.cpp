@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial5_18()
+void Tutorial05_18()
 {
 
 	for (int x = 1; x <= 9; x++)

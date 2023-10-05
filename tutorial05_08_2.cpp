@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial5_8_2()
+void Tutorial05_08_2()
 {
 	int num = 0;
 	int max = 0;

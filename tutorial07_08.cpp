@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial7_8()
+void Tutorial07_08()
 {
 	const int length = 30;
 	char string[length];

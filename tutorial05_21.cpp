@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial5_21()
+void Tutorial05_21()
 {
 	int num = 0;
 	scanf_s("%d", &num);

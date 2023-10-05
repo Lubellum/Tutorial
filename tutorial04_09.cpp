@@ -1,32 +1,32 @@
 #include "tutorial.h"
 
-void tutorial4_9()
+void Tutorial04_09()
 {
-	int DayofWeek = 0;
-	int PeriodofTime = 0;
+	int dayOfWeek = 0;
+	int periodOfTime = 0;
 
 	std::cout << "fŽ@‚·‚é—j“ú‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢\n";
 	std::cout << "“ú:0@ŒŽ:1@‰Î:2@…:3@–Ø:4@‹à:5@“y:6\n";
-	scanf_s("%d", &DayofWeek);
+	scanf_s("%d", &dayOfWeek);
 
 	std::cout << "fŽ@‚·‚éŽžŠÔ‘Ñ‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢\n";
 	std::cout << "Œß‘O:0@ŒßŒã:1@–éŠÔ:2\n";
-	scanf_s("%d", &PeriodofTime);
+	scanf_s("%d", &periodOfTime);
 
 
-	switch (DayofWeek)
+	switch (dayOfWeek)
 	{
 	case 0:
 
-		if (PeriodofTime == 0)
+		if (periodOfTime == 0)
 		{
 			std::cout << "‹xf‚Å‚·\n";
 		}
-		else if (PeriodofTime == 1)
+		else if (periodOfTime == 1)
 		{
 			std::cout << "‹xf‚Å‚·\n";
 		}
-		else if (PeriodofTime == 2)
+		else if (periodOfTime == 2)
 		{
 			std::cout << "‹xf‚Å‚·\n";
 		}
@@ -38,15 +38,15 @@ void tutorial4_9()
 
 	case 1:
 
-		if (PeriodofTime == 0)
+		if (periodOfTime == 0)
 		{
 			std::cout << "‰c‹Æ’†‚Å‚·\n";
 		}
-		else if (PeriodofTime == 1)
+		else if (periodOfTime == 1)
 		{
 			std::cout << "‰c‹Æ’†‚Å‚·\n";
 		}
-		else if (PeriodofTime == 2)
+		else if (periodOfTime == 2)
 		{
 			std::cout << "‰c‹Æ’†‚Å‚·\n";
 		}
@@ -58,15 +58,15 @@ void tutorial4_9()
 
 	case 2:
 
-		if (PeriodofTime == 0)
+		if (periodOfTime == 0)
 		{
 			std::cout << "‹xf‚Å‚·\n";
 		}
-		else if (PeriodofTime == 1)
+		else if (periodOfTime == 1)
 		{
 			std::cout << "‰c‹Æ’†‚Å‚·\n";
 		}
-		else if (PeriodofTime == 2)
+		else if (periodOfTime == 2)
 		{
 			std::cout << "‰c‹Æ’†‚Å‚·\n";
 		}
@@ -77,15 +77,15 @@ void tutorial4_9()
 
 	case 3:
 
-		if (PeriodofTime == 0)
+		if (periodOfTime == 0)
 		{
 			std::cout << "‰c‹Æ’†‚Å‚·\n";
 		}
-		else if (PeriodofTime == 1)
+		else if (periodOfTime == 1)
 		{
 			std::cout << "‰c‹Æ’†‚Å‚·\n";
 		}
-		else if (PeriodofTime == 2)
+		else if (periodOfTime == 2)
 		{
 			std::cout << "‹xf‚Å‚·\n";
 		}
@@ -97,15 +97,15 @@ void tutorial4_9()
 
 	case 4:
 
-		if (PeriodofTime == 0)
+		if (periodOfTime == 0)
 		{
 			std::cout << "‰c‹Æ’†‚Å‚·\n";
 		}
-		else if (PeriodofTime == 1)
+		else if (periodOfTime == 1)
 		{
 			std::cout << "‰c‹Æ’†‚Å‚·\n";
 		}
-		else if (PeriodofTime == 2)
+		else if (periodOfTime == 2)
 		{
 			std::cout << "‰c‹Æ’†‚Å‚·\n";
 		}
@@ -117,15 +117,15 @@ void tutorial4_9()
 
 	case 5:
 
-		if (PeriodofTime == 0)
+		if (periodOfTime == 0)
 		{
 			std::cout << "‹xf‚Å‚·\n";
 		}
-		else if (PeriodofTime == 1)
+		else if (periodOfTime == 1)
 		{
 			std::cout << "‰c‹Æ’†‚Å‚·\n";
 		}
-		else if (PeriodofTime == 2)
+		else if (periodOfTime == 2)
 		{
 			std::cout << "‰c‹Æ’†‚Å‚·\n";
 		}
@@ -137,15 +137,15 @@ void tutorial4_9()
 
 	case 6:
 
-		if (PeriodofTime == 0)
+		if (periodOfTime == 0)
 		{
 			std::cout << "‰c‹Æ’†‚Å‚·\n";
 		}
-		else if (PeriodofTime == 1)
+		else if (periodOfTime == 1)
 		{
 			std::cout << "‹xf‚Å‚·\n";
 		}
-		else if (PeriodofTime == 2)
+		else if (periodOfTime == 2)
 		{
 			std::cout << "‹xf‚Å‚·\n";
 		}

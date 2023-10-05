@@ -1,7 +1,7 @@
 #include "tutorial.h"
-#include "tutorial6_7.h"
+#include "tutorial06_07.h"
 
-void tutorial6_7::buildMultiplicationTables()
+void CTutorial06_07::BuildMultiplicationTables()
 {
     for (int y = 0; y < 9; y++)
     {
@@ -12,15 +12,15 @@ void tutorial6_7::buildMultiplicationTables()
     }
 }
 
-int tutorial6_7::caliculateMultiplicationTable(int x, int y)
+int CTutorial06_07::CaliculateMultiplicationTable(int x, int y)
 {
     int result = mKuku[x - 1][y - 1];
     return result;
 }
 
-void tutorial6_7()
+void CTutorial06_07()
 {
-    class tutorial6_7 sample;
+    class CTutorial06_07 sample;
    
     std::cout << "Ï‚ð‹‚ß‚½‚¢”Žš‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢(1‚Â–Ú)\n";
     int x = 0;
@@ -30,8 +30,8 @@ void tutorial6_7()
     int y = 0;
     std::cin >> y;
 
-    sample.buildMultiplicationTables();
+    sample.BuildMultiplicationTables();
  
-    int result = sample.caliculateMultiplicationTable(x, y);
+    int result = sample.CaliculateMultiplicationTable(x, y);
     std::cout << result;
 }

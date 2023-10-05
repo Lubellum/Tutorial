@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial6_8()
+void Tutorial06_08()
 {
 	const int limit = 10;
 	int numbers[limit];

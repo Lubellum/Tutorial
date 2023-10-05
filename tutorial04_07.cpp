@@ -1,7 +1,7 @@
 #include "tutorial.h"
-#include "tutorial4_7.h"
+#include "tutorial04_07.h"
 
-void tutorial4_7::JudgeGrades1()
+void tutorial04_07::JudgeGrades1()
 {
 	int x = 0;
 
@@ -18,7 +18,7 @@ void tutorial4_7::JudgeGrades1()
 	}
 }
 
-void tutorial4_7::JudgeGrades2()
+void tutorial04_07::JudgeGrades2()
 {
 	int x = 0;
 
@@ -39,7 +39,7 @@ void tutorial4_7::JudgeGrades2()
 	}
 }
 
-void tutorial4_7::JudgeGrades3()
+void tutorial04_07::JudgeGrades3()
 {
 	int x = 0;
 

@@ -35,7 +35,7 @@ bool IsFinish(int i, std::vector<int> numbers)
 	}
 }
 
-void tutorial6_4_1()
+void Tutorial06_04_1()
 {
 	std::vector<int> numbers;
 	numbers.resize(10);

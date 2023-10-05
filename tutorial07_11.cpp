@@ -2,7 +2,7 @@
 
 // 次のコードに追加し、str1 に str2 を結合して表示するプログラムを完成させなさい。
 
-void tutorial07_11()
+void Tutorial07_11()
 {
 	const int max = 100;
 	char    str1[max] = "Hello ";

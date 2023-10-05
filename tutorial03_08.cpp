@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial3_8()
+void Tutorial03_08()
 {
 	int x = 0;
 

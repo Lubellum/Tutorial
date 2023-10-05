@@ -326,10 +326,10 @@
     <ClInclude Include="tutorial.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="tutorial4_7.h">
+    <ClInclude Include="tutorial04_07.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="tutorial6_7.h">
+    <ClInclude Include="tutorial06_07.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>

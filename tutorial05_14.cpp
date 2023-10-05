@@ -17,7 +17,7 @@ bool IsContinue(int strike, int ball)
 	}
 }
 
-void tutorial5_14()
+void Tutorial05_14()
 {
 	int judge = 0;
 

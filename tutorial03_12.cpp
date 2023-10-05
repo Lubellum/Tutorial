@@ -1,13 +1,13 @@
 #include "tutorial.h"
 
-void tutorial3_12()
+void Tutorial03_12()
 {
 	int x;
 
 	printf_s("‹M•û‚Ì”N—î‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢\n");
 	scanf_s("%d", &x);
 
-	int LivedDate = x * 365;
+	int livedDate = x * 365;
 
-	std::cout << "‚ ‚È‚½‚ª‚±‚ê‚Ü‚Å¶‚«‚Ä‚«‚½“ú”‚Í–ñ " << LivedDate << " “ú‚Å‚·B" << "\n";
+	std::cout << "‚ ‚È‚½‚ª‚±‚ê‚Ü‚Å¶‚«‚Ä‚«‚½“ú”‚Í–ñ " << livedDate << " “ú‚Å‚·B" << "\n";
 }

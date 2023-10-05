@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial4_5()
+void Tutorial04_05()
 {
 	unsigned int x;
 

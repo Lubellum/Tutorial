@@ -1,11 +1,11 @@
 #include "tutorial.h"
 
-void tutorial5_6()
+void Tutorial05_06()
 {
 	int win = 0;
 	int lose = 0;
 
-	int BattleScore = 0;
+	int battleScore = 0;
 
 	std::cout << "Ÿ”s‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢\n";
 	std::cout << "0:•‰‚¯@1:Ÿ‚¿\n";
@@ -13,13 +13,13 @@ void tutorial5_6()
 	for (int i = 0; i < 10; i++)
 	{
 		std::cout << i + 1 << "‰ñ–Ú\n";
-		scanf_s("%d", &BattleScore);
+		scanf_s("%d", &battleScore);
 
-		if (BattleScore == 0)
+		if (battleScore == 0)
 		{
 			++lose;
 		}
-		else if (BattleScore == 1)
+		else if (battleScore == 1)
 		{
 			++win;
 		}

@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial1_1()
+void Tutorial01_01()
 {
 	printf("Hello World\n");
 }

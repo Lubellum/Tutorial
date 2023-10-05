@@ -222,8 +222,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tutorial.h" />
-    <ClInclude Include="tutorial4_7.h" />
-    <ClInclude Include="tutorial6_7.h" />
+    <ClInclude Include="tutorial04_07.h" />
+    <ClInclude Include="tutorial06_07.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

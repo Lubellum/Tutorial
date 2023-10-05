@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial7_5()
+void Tutorial07_05()
 {
 	char string[30];
 

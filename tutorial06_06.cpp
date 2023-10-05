@@ -2,7 +2,7 @@
 
 // 次のコードに追加し、九九表を表示するプログラムを完成させなさい。
 
-void tutorial6_6()
+void Tutorial06_06()
 {
     int kuku[9][10];
     int x, y;

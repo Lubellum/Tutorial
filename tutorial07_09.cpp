@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial7_9()
+void Tutorial07_09()
 {
 	const int count = 20;
 	char string[5 * count + 1];

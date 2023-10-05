@@ -1,11 +1,11 @@
 #include "tutorial.h"
 
-void hello_world()
+void HelloWorld()
 {
 	printf("Hello World\n");
 }
 
-void tutorial1_2()
+void Tutorial01_02()
 {
-	hello_world();
+	HelloWorld();
 }

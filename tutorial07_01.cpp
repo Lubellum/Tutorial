@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial7_1()
+void Tutorial07_01()
 {
 	//char a[] = "A";
     //const char * a = "a";

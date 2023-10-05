@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial6_2()
+void Tutorial06_02()
 {
 	//int numbers[10];
 	std::vector<int> numbers;

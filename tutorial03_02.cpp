@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial3_2()
+void Tutorial03_02()
 {
 	printf_s("%d", 13 * 17);
 }

@@ -2,7 +2,7 @@
 
 // 次のコードに追加し、入力された数値を 16 桁の 2 進数で表示するプログラムを完成させなさい。
 
-void tutorial6_5()
+void Tutorial06_05()
 {
 	int binary[16];
 	int value;

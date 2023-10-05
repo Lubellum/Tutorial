@@ -1,6 +1,6 @@
 #include "tutorial.h"
 
-void tutorial5_3()
+void Tutorial05_03()
 {
 
 	// ++i Œø—¦‚ª—Ç‚¢                       i += 1
