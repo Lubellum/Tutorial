@@ -321,6 +321,27 @@
     <ClCompile Include="tutorial09_04.cpp">
       <Filter>ソース ファイル\9章</Filter>
     </ClCompile>
+    <ClCompile Include="tutorial09_05.cpp">
+      <Filter>ソース ファイル\9章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial09_06_1.cpp">
+      <Filter>ソース ファイル\9章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial09_06_2.cpp">
+      <Filter>ソース ファイル\9章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial09_07.cpp">
+      <Filter>ソース ファイル\9章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial09_08.cpp">
+      <Filter>ソース ファイル\9章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial09_09.cpp">
+      <Filter>ソース ファイル\9章</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial09_11.cpp">
+      <Filter>ソース ファイル\9章</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tutorial.h">

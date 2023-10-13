@@ -1,0 +1,37 @@
+#include "tutorial.h"
+
+bool IsPrimeNumber(int aNum)
+{
+	int factorCount = 0;
+
+	for (int i = 2; i < aNum; ++i)
+	{
+		if (aNum % i == 0)
+		{
+			++factorCount;
+		}
+	}
+
+	if (factorCount > 0)
+	{
+		return false;
+	}
+	else
+	{
+		return true;
+	}
+}
+
+void Tutorial09_08()
+{
+	int minNum = 10000;
+	int maxNum = 10100;
+	
+	for (int i = minNum; i < maxNum; i++)
+	{
+		// todo: 素数と判別できたときにcountを増やす
+		int primeNumberCount = 0;
+		primeNumberCount += IsPrimeNumber(i);
+	}
+
+}
