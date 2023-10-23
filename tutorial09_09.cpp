@@ -1,23 +1,27 @@
 #include "tutorial.h"
 
-void Tutorial09_09()
+// ƒ|ƒCƒ“ƒ^“n‚µ
+void Swap(int * aNum1, int * aNum2)
 {
 	int num0 = 0;
-	//int num1 = 5;
-	//int num2 = 10;
 
-	//int* pNum0 = 0;
-	//int* pNum1 = 0;
-	//int* pNum2 = 0;
+	num0 = *aNum1;
+	*aNum1 = *aNum2;
+	*aNum2 = num0;
+}
 
-	//pNum0 = &num0;
-	//pNum1 = &num1;
-	//pNum2 = &num2;
+// QÆ“n‚µ
+//void Swap(const int &aNum1, const int &aNum2)
+//{
+//	int num0 = 0;
+//
+//	num0 = aNum1;
+//	aNum1 = aNum2;
+//	aNum2 = num0;
+//}
 
-	//*pNum0 = num1;
-	//*pNum1 = num2;
-	//*pNum2 = num0;
-
+void Tutorial09_09()
+{
 	const int count = 10;
 	int numbers[count] = {};
 
@@ -32,9 +36,11 @@ void Tutorial09_09()
 		{
 			if (numbers[j] > numbers[j + 1])
 			{
-				num0 = numbers[j];
-				numbers[j] = numbers[j + 1];
-				numbers[j + 1] = num0;
+				// ƒ|ƒCƒ“ƒ^“n‚µ
+				Swap(&numbers[j], &numbers[j + 1]);
+
+				// QÆ“n‚µ
+				//Swap(numbers[j], numbers[j + 1]);
 			}
 		}
 	}

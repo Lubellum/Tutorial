@@ -9,6 +9,7 @@ bool IsPrimeNumber(int aNum)
 		if (aNum % i == 0)
 		{
 			++factorCount;
+			break;
 		}
 	}
 
@@ -21,7 +22,6 @@ bool IsPrimeNumber(int aNum)
 		return true;
 	}
 }
-
 
 // 多分合ってる…！！？
 
