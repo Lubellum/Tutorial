@@ -226,6 +226,16 @@
     <ClCompile Include="tutorial09_08.cpp" />
     <ClCompile Include="tutorial09_09.cpp" />
     <ClCompile Include="tutorial09_11.cpp" />
+    <ClCompile Include="tutorial10_01.cpp" />
+    <ClCompile Include="tutorial10_01_2.cpp" />
+    <ClCompile Include="tutorial10_02_1.cpp" />
+    <ClCompile Include="tutorial10_02_2.cpp" />
+    <ClCompile Include="tutorial10_03_1.cpp" />
+    <ClCompile Include="tutorial10_03_2.cpp" />
+    <ClCompile Include="tutorial10_04.cpp" />
+    <ClCompile Include="tutorial10_05.cpp" />
+    <ClCompile Include="tutorial10_06.cpp" />
+    <ClCompile Include="tutorial10_06_0.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tutorial.h" />

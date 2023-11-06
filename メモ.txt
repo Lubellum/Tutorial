@@ -1,37 +1,71 @@
-#include "tutorial.h"
-
-bool IsPrimeNumber(int aNum)
+------------------------------------------------------------------------------------
+《TPoint型のポインタ変数》
 {
-	int factorCount = 0;
+    TPoint * point; // メモリの先頭アドレスを扱うポインタ変数（型がTPointなのでTPointとみなす）
+    point = new TPoint; // new して TPoint分の領域を確保
 
-	for (int i = 2; i < aNum; ++i)
-	{
-		if (aNum % i == 0)
-		{
-			++factorCount;
-		}
-	}
-
-	if (factorCount > 0)
-	{
-		return false;
-	}
-	else
-	{
-		return true;
-	}
+    point->x = 2;  // TPoint型としているので、xがあることがわかる
+    point->y = 3; // TPoint型としているので、yがあることがわかる
 }
 
-void Tutorial09_08()
+《void型のポインタ変数》
 {
-	int minNum = 10000;
-	int maxNum = 10100;
-	
-	for (int i = minNum; i < maxNum; i++)
-	{
-		// todo: 素数と判別できたときにcountを増やす
-		int primeNumberCount = 0;
-		primeNumberCount += IsPrimeNumber(i);
-	}
+    void * point; // メモリの先頭アドレスを扱うポインタ変数（voidなので型なし、ただのアドレス）
+    point = new TPoint; // new して TPoint分の領域を確保
 
+    point-> ??? // 型がわからないので、TPointかどうかもわからない、xが存在している事はわからない
+    point-> ??? // 型がわからないので、TPointかどうかもわからない、yが存在している事はわからない
+
+    reinterpret_cast< TPoint * >( point )->x; // ポインタ型のキャスト TPoint としてみなしてアクセス
+    reinterpret_cast< TPoint * >( point )->y;
+
+    TPoint *point2; // 型がTPointのポインタ変数
+    point2 = point; // TPoint型のポインタ変数にアドレスを渡す（アドレス値だけのコピー）
+
+    point2->x; // point2はTPoint型として扱っているので、xがあることがわかる
+    point2->y; // point2はTPoint型として扱っているので、yがあることがわかる
+
+    int * point3;
+    point3 = point; // int型のポインタ変数にアドレスを渡す（アドレス値だけのコピー）
+    point3 = 5; // point3はint型として扱っているので、結果 x に対して代入される
 }
+------------------------------------------------------------------------------------
+
+《TPoint型のポインタ変数で見た場合》
+　　先頭　　　　４バイト　　８バイト
+　　　↓　　　　　↓　　　　　↓
+　　　─────────────
+　　　｜　　　　　｜　　　　　｜　実際のヒープ領域
+　　　─────────────
+
+　　先頭　　　　４バイト　　８バイト
+　　　↓　　　　　↓　　　　　↓
+　　　─────────────
+　　　｜　　ｘ　　｜　　ｙ　　｜　ポインタでの見え方
+　　　─────────────
+
+
+《int型のポインタ変数で見た場合》
+　　先頭　　　　４バイト　　８バイト
+　　　↓　　　　　↓　　　　　↓
+　　　─────────────
+　　　｜　　　　　｜　　　　　｜　実際のヒープ領域
+　　　─────────────
+
+　　先頭　　　　４バイト
+　　　↓　　　　　↓
+　　　───────
+　　　｜　　ｘ　　｜　　　　　　　ポインタでの見え方
+　　　───────
+
+
+《void型のポインタ変数で見た場合》
+　　先頭　　　　４バイト　　８バイト
+　　　↓　　　　　↓　　　　　↓
+　　　─────────────
+　　　｜　　　　　｜　　　　　｜　実際のヒープ領域
+　　　─────────────
+
+　　先頭
+　　　↓
+　　　｜　　　　　　　　　　　　　ポインタでの見え方
