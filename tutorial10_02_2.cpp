@@ -8,8 +8,6 @@ struct TPrecipitation
 
 void Tutorial10_02_2()
 {
-	// todo:構造体のインスタンスを配列で扱う方法で記述
-
 	TPrecipitation precipitation[4];
 
 	for (int i = 0; i < 4; i++)
