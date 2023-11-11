@@ -7,17 +7,17 @@ struct TExamResult2
 	char judgeGrade2;
 };
 
-char JudgeGrade2(TExamResult2* aStudent)
+char JudgeGrade2(const TExamResult2 &aStudent)
 {
-	if (aStudent->score >= 80)
+	if (aStudent.score >= 80)
 	{
 		return 'A';
 	}
-	else if (aStudent->score >= 70)
+	else if (aStudent.score >= 70)
 	{
 		return 'B';
 	}
-	else if (aStudent->score >= 60)
+	else if (aStudent.score >= 60)
 	{
 		return 'C';
 	}
@@ -36,7 +36,7 @@ void Tutorial10_05()
 	for (i = 0; i < num; i++)
 	{
 		printf_s("生徒の名前は？(%d人目)\n", i + 1);
-		scanf_s("%s", &students[i].name, 40);
+		scanf_s("%s", students[i].name, 40);
 		printf_s("テストの点数は？(%d人目)\n", i + 1);
 		scanf_s("%d", &students[i].score);
 		printf_s("\n");
@@ -44,7 +44,7 @@ void Tutorial10_05()
 
 	for (i = 0; i < num; i++)
 	{
-		students[i].judgeGrade2 = JudgeGrade2(&students[i]);
+		students[i].judgeGrade2 = JudgeGrade2(students[i]);
 	}
 
 	for (i = 0; i < num; i++)

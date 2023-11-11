@@ -23,11 +23,20 @@ void ShowCityinfo(TCityinfo* aCity, int aCount)
 void Tutorial10_06()
 {
     struct TCityinfo aCity[] =
-    { 
+    {
         { "ìåãû",   35.41, 139.45 },
         { "ëÂç„",   34.41, 135.29 },
         { "ñºå√âÆ", 35.11, 136.54 }
     };
 
-    ShowCityinfo(aCity, 3);
+    int size = sizeof(aCity) / sizeof(aCity[0]);
+
+    //std::array <TCityinfo, 3> aCity =
+    //{
+    //    { "ìåãû",   35.41, 139.45 },
+    //    { "ëÂç„",   34.41, 135.29 },
+    //    {"ñºå√âÆ", 35.11, 136.54 }
+    //};
+
+    ShowCityinfo(aCity, size);
 }

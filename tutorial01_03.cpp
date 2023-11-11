@@ -2,7 +2,7 @@
 
 void Basyo1()
 {
-	printf("‚Ó‚é‚¢‚¯‚â\n");
+	printf_s("‚Ó‚é‚¢‚¯‚â\n");
 }
 
 void Basyo2()
